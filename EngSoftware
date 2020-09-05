@@ -3,12 +3,16 @@
 #include <string.h>
 
 int main () {
-	 int nasc,idade = 0;
+	 int anoatual, nasc,idade = 0;
 	 char nome[10];
+	 printf("Ano de nascimento:\n");
 	 scanf("%d",&nasc);
+	 printf("Nome:\n");
 	 scanf("%s", &nome);
+	 printf("Ano em que estamos:\n");
+	 scanf("%d", &anoatual);
 	 
-	 idade = nasc - 2020;
-	 printf("%d", idade);
+	 idade =  anoatual - nasc;
+	 printf("Sua idade: %d", idade);
 	 
 }
