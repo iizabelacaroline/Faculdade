@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main () {
+	 int nasc,idade = 0;
+	 char nome[10];
+	 scanf("%d",&nasc);
+	 scanf("%s", &nome);
+	 
+	 idade = nasc - 2020;
+	 printf("%d", idade);
+	 
+}
