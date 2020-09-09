@@ -4,7 +4,7 @@
 
 int main () {
 	 int anoatual, nasc,idade = 0;
-	 char nome[10];
+	 char nome[20];
 	 printf("Ano de nascimento:\n");
 	 scanf("%d",&nasc);
 	 printf("Nome:\n");
